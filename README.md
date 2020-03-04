@@ -1,2 +1,2 @@
-# web
-web贪吃蛇，熟悉git
+# 贪吃蛇
+由js/html/css完成，熟悉git
