@@ -1,3 +1,15 @@
 *{
     margin: 0;
 }
+body{
+    background-color: #fce38a;
+    transition: background-color 1.2s;
+}
+i{
+    font-style: normal;
+}
+.center{
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+} 

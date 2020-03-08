@@ -1,1 +1,61 @@
-@import 'reset.css'
+@import 'reset.css';
+.content{
+    position: absolute;
+    height: 600px;
+    width: 600px; 
+    background-color: #29262e;
+    transition: border 0.8s;
+    border: 20px solid #95e1d3;
+}
+.start,.stop{
+    position: absolute;
+    display: block;
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid #3b3a4e;
+    transition: border 0.3s;
+    color: #3b3a4e;
+}
+.stop{
+    display: none;
+}
+.start:hover,.stop:hover{
+    cursor: pointer;
+    border: 1px solid #cde2e9;
+    color: #cde2e9;
+}
+.myscore{
+    position: absolute;
+    top: 210px;
+    left: 220px;
+    color: #3b3a4e;
+}
+#btn i{
+    font-size: 40px;
+    letter-spacing: 5px;
+    transition: color 0.3s;
+}
+.snakeHead{
+    width: 20px;
+    height: 20px;
+    background-image: url(../images/蛇.png);
+    background-size: 27px;
+    background-position: 0px -3px;
+    text-align: center;
+    /* transform: rotateZ(90deg); */
+}
+.snakeBody{
+    width: 20px;
+    height: 20px;
+    background-color: #fce38a;
+    border-radius: 50%;
+    transition: background-color 0.8s;
+}
+.Food{
+    width: 20px;
+    height: 20px;
+    background-image: url(../images/草莓.svg);
+    background-size: cover;
+}
